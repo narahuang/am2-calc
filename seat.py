@@ -8,8 +8,8 @@ import sys
 
 def seat(seat, economy, business):
     print("Economy: {0}".format(seat*economy/100))
-    print("Business: {0}".format(seat*business/100))
-    print("First: {0}".format(seat*(100-economy-business)/100))
+    print("Business: {0}".format(seat*business/200))
+    print("First: {0}".format(seat*(100-economy-business)/400))
     
 if __name__ == "__main__":
     if len(sys.argv) != 4:
